@@ -13,13 +13,18 @@ An end-to-end analytics project ranking risky flight routes and explaining delay
 - Which routes are **riskiest right now** (transparent risk score)?
 
 ## Findings (from this dataset)
-> Replace the placeholders after running the SQL below or reading your Power BI cards.
-
-- Avg departure delay: **X.X min**; **Y.Y%** of flights delayed >15 min.
-- Worst carrier: **CC** (**B.B min** avg); best: **DD** (**A.A min** avg).  
-- Worst destinations by delay: **AAA**, **BBB**, **CCC**.  
-- **Rain days** add **+N.N min** vs **dry days**.  
-- Top-risk route/month: **ORIGIN→DEST, YYYY-MM**, risk **Z.Z**.
+> Overall Findings: [Findings](https://docs.google.com/document/d/1x1CzctyTnjW-9UJfnFmxuPn4l680V6rj2QbtMQwhToQ/edit?usp=sharing)
+  
+![Results Dashboard](visuals/Dashboard.png)
+~
+- Avg departure delay: 2502 min; 42.09% of flights delayed >15 min.
+![Delays](visuals/delay.png)
+~
+- Top 3 worst destinations by delay: JFK, BOS, SJU.
+![Worse Destinations Delays ](visuals/destination.png)
+~
+- **Rain days** had more delays overall.  
+![Weather Affects on Delays](visuals/weather.png)
 
 ### Quick SQL to pull these numbers
 ```sql
