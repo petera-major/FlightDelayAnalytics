@@ -14,8 +14,8 @@ An end-to-end analytics project ranking risky flight routes and explaining delay
 
 ## Findings (from this dataset)
 > Overall Findings: [Findings](https://docs.google.com/document/d/1x1CzctyTnjW-9UJfnFmxuPn4l680V6rj2QbtMQwhToQ/edit?usp=sharing)
-  
-![Results Dashboard](visuals/Dashboard.png)
+~
+![Results Dashboard](visuals/dashboard.png)
 ~
 - Avg departure delay: 2502 min; 42.09% of flights delayed >15 min.
 ![Delays](visuals/delay.png)
