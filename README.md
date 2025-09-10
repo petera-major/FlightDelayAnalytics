@@ -12,8 +12,9 @@ An end-to-end analytics project ranking risky flight routes and explaining delay
 - How much do **rainy days** add to delays?
 - Which routes are **riskiest right now** (transparent risk score)?
 
-## Findings (from this dataset)
-> Overall Findings: [Findings](https://docs.google.com/document/d/1x1CzctyTnjW-9UJfnFmxuPn4l680V6rj2QbtMQwhToQ/edit?usp=sharing)
+## Findings (from my dataset):
+Overall Findings: [Findings](https://docs.google.com/document/d/1x1CzctyTnjW-9UJfnFmxuPn4l680V6rj2QbtMQwhToQ/edit?usp=sharing)
+~
 ~
 ![Results Dashboard](visuals/dashboard.png)
 ~
