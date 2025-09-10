@@ -121,8 +121,3 @@ Rain Δ Delay (min) = [Avg Dep Delay (Rain)] - [Avg Dep Delay (Dry)]
 ├── visuals/              # visuals for SQL outputs
 └── README.md
 ```
-
-## Assumptions & Limits
-- Weather joined **by date** only (not by meteo-station proximity). Good for trend/context; not a causal model.
-- Missing/malformed times are coerced to nulls; averages use available rows.
-- Risk score is **interpretable**, not predictive; weights are tunable.
